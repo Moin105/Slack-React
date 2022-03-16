@@ -1,0 +1,78 @@
+.aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 256px;
+          flex: 0 0 256px;
+  background-color: #3f0e40;
+  height: 100vh;
+  min-width: 0px;
+  color: #ffffff;
+  max-width: 256px;
+}
+
+.work-space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-color: #522653;
+  padding: 0px 20px 0px 16px;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  line-height: 24px;
+  gap: 3px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.options {
+  padding: 0px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 28px;
+}
+
+.options .icon {
+  width: 20px;
+  height: 20px;
+  text-transform: capitalize;
+  padding: 0px 6px 0px 0px;
+}
+
+.options .name {
+  font-size: 15px;
+  color: #bcabbc;
+  margin: 0px;
+}
+
+.options:hover {
+  background-color: #350d36;
+}
+
+.options:active {
+  background-color: #1164a3;
+  color: #ffffff;
+}
+
+.options:active .name {
+  color: #ffffff;
+}
+/*# sourceMappingURL=SideNav.css.map */

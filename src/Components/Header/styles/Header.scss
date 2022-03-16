@@ -1,0 +1,61 @@
+$header-bg: #350d36;
+$text-color: #ffffff;
+$header-hover: #644565;
+header {
+  display: flex;
+  height: 44px;
+  align-items: center;
+  color: $text-color;
+  background-color: $header-bg;
+  .history {
+    display: flex;
+    justify-content: end;
+    padding: 0px 20px 0px 16px;
+    // min-width: 220px;
+    flex: 0 0 220px;
+  }
+}
+.btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.btn:hover {
+  opacity: 1;
+  background-color: #644565;
+}
+.info-icons {
+  display: flex;
+  gap: 20px;
+  padding: 0px 16px 0px 32px;
+  position: absolute;
+  right: 0;
+}
+.forum {
+  position: relative;
+  max-width: 728px;
+  flex: 5;
+  min-width: 0;
+
+  input {
+    width: 100%;
+    min-width: 0;
+    border: none;
+    background-color: $header-hover;
+    padding: 0px 8px;
+    height: 26px;
+    border-radius: 4px;
+  }
+  .search-icon {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    font-size: 18px;
+    padding: 4px 7px;
+  }
+}

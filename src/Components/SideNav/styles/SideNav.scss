@@ -1,0 +1,56 @@
+$side-bg: #3f0e40;
+$text-color: #ffffff;
+$header-bg: #350d36;
+$active-bg: #1164a3;
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 256px;
+  background-color: $side-bg;
+  height: 100vh;
+  min-width: 0px;
+  color: $text-color;
+  max-width: 256px;
+}
+.work-space {
+  display: flex;
+  justify-content: space-between;
+  border-color: rgb(82, 38, 83);
+  padding: 0px 20px 0px 16px;
+}
+h1 {
+  display: flex;
+  font-size: 18px;
+  line-height: 24px;
+  gap: 3px;
+  align-items: center;
+}
+.options {
+  padding: 0px 16px;
+  display: flex;
+  //   margin: 0px;
+  align-items: center;
+  height: 28px;
+  .icon {
+    width: 20px;
+    height: 20px;
+    text-transform: capitalize;
+    padding: 0px 6px 0px 0px;
+  }
+  .name {
+    font-size: 15px;
+    color: #bcabbc;
+    margin: 0px;
+  }
+}
+.options:hover {
+  background-color: $header-bg;
+}
+.options:active {
+  background-color: $active-bg;
+  color: $text-color;
+  .name {
+    color: $text-color;
+  }
+}
